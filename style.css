@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	font-family: Roboto;
+}
+
+body {
+	background-color: black;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	flex-direction: center;
+	height: 90vh;
+	width: 90vw;
+}
+
+.box1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.t1 {
+	border-radius: 12px;
+	background-color: white;
+	height: 50%;
+	width: 60%;
+}
+
+.text1 {
+	margin: 15px;
+	font-size: 14px;
+}
+
+.IMG1 {
+    width: 30%;
+}
+
+.img1 {
+	width: 40%;
+	margin: 25px;
+}
+
+.Randall {
+	font-weight: bold;
+    margin: 3px 0px;
+    margin-top: 40px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+    justify-content: left;
+}
+
+.Lore1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.lore {
+    font-weight: lighter;
+}
